@@ -135,6 +135,7 @@ and should return a new array that is identical to the old array. You can name t
 
 function copy(copy_array, original_array){
 
+    // spread op to take away loop
     for (i = 0; i < original_array.length; i++){
         copy_array[i] = original_array[i];
     }
